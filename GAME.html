@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/GAME.css">
+</head>
+<body onload="workerwork()"><!-- TextAlign Center;-->
+<div class="website_wrapper">  <!-- Set width for centering -->
+	<!-- Side Content -->	
+	<div class="wrapper1">
+		<div class="a1">
+		<div id="log">0</div><br>
+		<img src="images/log.jpg" height="72" width="72">
+		</div>
+		<div class="a2">
+		<button onclick="addmoney()" id="button2" > Sell <img src="images/log.jpg" height="72" width="72"></button>
+		<br>
+		You Have <div id="money">0</div><br><img src="images/mon.png" height="36" width="36">
+		</div>
+	</div>	
+	<!-- Middle content-->
+	//tree that increases log value
+	<div class="wrapper2">
+		<div class="main_content">
+			<button onclick="addlog()" id="button1" >Get more <br><img src="images/tree.png"height="600px" width="400px"><br><br><br><br></button>
+		</div>
+	</div>
+	<!--Side content-->
+	<div class="wrapper3">
+		<div class="panel">
+			Shop
+		</div>
+		<center><button id="sell10" onclick="sell10()">sell 10 <br><img src="images/log.jpg" width="36" height="36"></button>
+
+		<button id="sell10" onclick="upgradelog()">Multiply How many<br><img src="images/log.jpg" width="36" height="36"><br> You get from the tree</button>
+		</center>
+	</div>
+</div>
+	<!-- Scripts to be run at the end of the page-->		
+<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

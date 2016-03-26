@@ -1,0 +1,67 @@
+.websitewrapper{
+	height: 800px;
+	width: 1000px;
+	background-color: red;
+}
+
+.wrapper1{
+	float: left;
+	height: 800px;
+	width: 200px;
+	background-color: yellow;
+}
+
+.wrapper2{
+	float: left;
+	height: 800px;
+	width: 600px;
+	background-color: blue;
+	text-align: center;
+}
+
+.wrapper3{
+	float: left;
+	height: 800px;
+	width: 200px;
+	background-color: green;
+}
+
+.a1{
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	color: white;
+	font-size: 200%;
+
+}
+
+.a2{
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+	margin-top: 400px;
+}
+
+.main_content{
+	display: inline-block;
+	height: 600px;
+	width: 400px;
+	background-color: orange;
+	margin-top:100px;
+}
+
+.panel{
+	height: 200px;
+	width: 200px;
+	background-color: lightgreen;
+	color: white;
+	font-size: 400%;
+
+}
+#button1{
+	background-color: #89cff0;
+}
+#sell10{
+	width: 190px;
+	background-color: green;
+}
