@@ -66,8 +66,7 @@ function autoclicker(){
 		money = money-300*workercost;
 		workercost = workercost * 1;
 		worker++;
-		document.getElementById('money').innerHTML = money;
-		document.getElementById('worker').innerHTML = worker;
+		document.getElementById('money').innerHTML = money
 		console.log('bought worker,worker total is' + worker)
 	}else{
 		alert('You do not have enough money to buy a worker');
