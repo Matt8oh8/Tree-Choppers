@@ -8,14 +8,14 @@
 	float: left;
 	height: 800px;
 	width: 200px;
-	background-color: yellow;
+	background-color: #89cff0;
 }
 
 .wrapper2{
 	float: left;
 	height: 800px;
 	width: 600px;
-	background-color: blue;
+	background-color: #89cff0;
 	text-align: center;
 }
 
@@ -23,13 +23,13 @@
 	float: left;
 	height: 800px;
 	width: 200px;
-	background-color: green;
+	background-color: grey;
 }
 
 .a1{
 	height: 200px;
 	width: 200px;
-	background-color: black;
+	background-color: #89cff0;
 	color: white;
 	font-size: 200%;
 
@@ -38,8 +38,11 @@
 .a2{
 	height: 200px;
 	width: 200px;
-	background-color: lightblue;
+	background-color: grey;
 	margin-top: 400px;
+		color: white;
+	font-size: 100%;
+	font-family: verdana;
 }
 
 .main_content{
@@ -53,15 +56,29 @@
 .panel{
 	height: 200px;
 	width: 200px;
-	background-color: lightgreen;
+	background-color: grey;
 	color: white;
 	font-size: 400%;
 
 }
 #button1{
 	background-color: #89cff0;
+	border: none;
+	color: white;
+	font-family: verdana;
 }
 #sell10{
 	width: 190px;
-	background-color: green;
+	background-color: grey;
+	color: white;
+	font-size: 100%;
+	font-family: verdana;
+}
+#sell1{
+	width: 190px;
+	background-color: grey;
+	color: white;
+	font-size: 100%;
+	font-family: verdana;
+	border: none;
 }
