@@ -8,7 +8,7 @@
 	float: left;
 	height: 800px;
 	width: 200px;
-	background-color: #89cff0;
+	background-color: grey;
 }
 
 .wrapper2{
@@ -29,7 +29,7 @@
 .a1{
 	height: 200px;
 	width: 200px;
-	background-color: #89cff0;
+	background-color: grey;
 	color: white;
 	font-size: 200%;
 
@@ -81,4 +81,9 @@
 	font-size: 100%;
 	font-family: verdana;
 	border: none;
+}
+#wip{
+	color: white;
+	font-size: 100%;
+	font-family: verdana;
 }
